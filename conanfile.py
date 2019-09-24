@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class XtlConan(ConanFile):
     name = "xtl"
-    version = "0.6.5"
+    version = "0.6.4"
     license = "BSD 3-Clause"
     #author = "<Put your name here> <And your email here>"
     url = "https://github.com/omaralvarez/conan-xtl"
