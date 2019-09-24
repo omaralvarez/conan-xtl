@@ -1,10 +1,12 @@
+[ ![Download](https://api.bintray.com/packages/omaralvarez/public-conan/xtl%3Aomaralvarez/images/download.svg) ](https://bintray.com/omaralvarez/public-conan/xtl%3Aomaralvarez/_latestVersion)
+
 # conan-xtl
     
 ## Reuse the packages
 
 ### Basic setup
 
-    $ conan install xtl/0.6.5@omaralvarez/public-conan
+    $ conan install xtl/0.6.7@omaralvarez/public-conan
 
 ### Package basic test
     $ conan create . username/bintray-repo
@@ -16,7 +18,7 @@
 * A sample from `conanfile.txt` in the root directory:
 ```
 [requires]
-xtl/0.6.5@omaralvarez/public-conan
+xtl/0.6.7@omaralvarez/public-conan
 ...
 
 [generators]
