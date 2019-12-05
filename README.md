@@ -6,7 +6,7 @@
 
 ### Basic setup
 
-    $ conan install xtl/0.6.7@omaralvarez/public-conan
+    $ conan install xtl/0.6.9@omaralvarez/public-conan
 
 ### Package basic test
     $ conan create . username/bintray-repo
@@ -18,7 +18,7 @@
 * A sample from `conanfile.txt` in the root directory:
 ```
 [requires]
-xtl/0.6.7@omaralvarez/public-conan
+xtl/0.6.9@omaralvarez/public-conan
 ...
 
 [generators]
